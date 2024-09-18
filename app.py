@@ -1,8 +1,6 @@
-x=3
-y=float(3)
+sentence=input("this is a sentence")
 
-x = "this is a thing"
-y=x.split()
-z=y[0]
-print(z)
-print(x)
+def count(string): 
+
+
+count(sentence)
