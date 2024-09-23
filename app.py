@@ -1,7 +1,9 @@
-sentence=input("this is a sentence")
+userinput=input("enter sentence: This is a sentence")
 
-def count(sentence):
+def countwords(sentence):
     words=sentence.split()
-    return len(words)
-   
-print("number of words in sentence")
+    num=len(words)
+    return num
+print(f"the number of words is:{countwords(userinput)}")
+
+countwords()
