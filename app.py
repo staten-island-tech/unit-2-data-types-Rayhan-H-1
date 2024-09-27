@@ -14,11 +14,20 @@ if day_of_week == "thursday":
 else:
     print("incorrect") """
 
-
+""" 
 temp = 75
 if temp > 68:
     print('warm')
 elif temp == 68:
     print('perfect')
 else:
-    print('cold')
+    print('cold') """
+
+def even_odd(number):
+ if number % 2==0:
+     return "even"
+ else:
+     return "odd"
+result=even_odd(1)
+
+print(result)
