@@ -31,7 +31,7 @@ else:
 result=even_odd(8-)
 
 print(result) """
-
+""" 
 def calculate_tip():
    
     bill = float(input("Enter the bill amount: "))
@@ -60,7 +60,5 @@ def calculate_tip():
     return tip
 
 tip = calculate_tip()
-print("Your tip amount is:", tip)
-
-
+print("Your tip amount is:", tip) """
 
