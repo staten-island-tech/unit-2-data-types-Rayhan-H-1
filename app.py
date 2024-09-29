@@ -23,11 +23,44 @@ elif temp == 68:
 else:
     print('cold') """
 
-def even_odd(number):
+""" def even_odd(number):
  if number % 2==0:
      return "even"
  else:
      return "odd"
-result=even_odd(1)
+result=even_odd(8-)
 
-print(result)
+print(result) """
+
+def calculate_tip():
+   
+    bill = float(input("Enter the bill amount: "))
+    
+ 
+    service = input("Enter service quality (bad, okay, good, great): ")
+    
+ 
+    tip_percentages = {
+        "bad": 0,
+        "okay": 15,
+        "good": 20,
+        "great": 25
+    }
+    
+  
+    if service not in tip_percentages:
+        return "Invalid service level. Please enter bad, okay, good, or great."
+    #I put this code because relasticly a person might not type what is expected.
+  
+    tip_percentage = tip_percentages[service]
+    
+  
+    tip = (tip_percentage / 100) * bill
+  
+    return tip
+
+tip = calculate_tip()
+print("Your tip amount is:", tip)
+
+
+
