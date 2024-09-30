@@ -62,3 +62,61 @@ def calculate_tip():
 tip = calculate_tip()
 print("Your tip amount is:", tip) """
 
+
+""" def find_factors(number):
+    factors = []
+    for i in range(1, number + 1):
+        if number % i == 0:
+            factors.append(i)
+    return factors
+
+
+number = int(input("Enter a number: "))
+
+
+factors = find_factors(number)
+print(f"The factors of {number} are: {factors}") """
+
+
+""" food = "pizza:"
+name = "Spongebob:"
+adjective = "joyful:"
+noun = "ballon:"
+verb1 = "walking:"
+verb2 = "Jumping: "
+verb3 = "running:"
+
+
+madlib = f"It was {food} day at school, and {name} was super {adjective} for lunch. \
+But when they went outside to eat, a {noun} stole their {food}! \
+{name} chased the {noun} all over school. They {verb1}, {verb2}, and {verb3} through the playground. \
+Then they tripped on their {noun} and the {noun} escaped! Luckily, {name}'s friends were willing to share their {food} with them."
+
+
+
+print(madlib)
+ """
+
+def greatest_common_factor(num1, num2):
+   
+    if num1 < num2:
+        smaller = num1
+    else:
+        smaller = num2
+
+   
+    gcf = 1
+
+    for i in range(1, smaller + 1):
+    
+        if num1 % i == 0 and num2 % i == 0:
+            gcf = i
+
+    return gcf
+
+
+num1 = 88
+num2 = 64444848
+result = greatest_common_factor(num1, num2)
+print(f"The greatest common factor of {num1} and {num2} is: {result}")
+
